@@ -1,0 +1,100 @@
+/* Base container styling */
+.pdf-container {
+    font-family: "Arial", sans-serif;
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Title styling */
+  .pdf-title {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #4a90e2;
+  }
+  
+  /* Form styling */
+  .pdf-form {
+    display: grid;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    background: #ffffff;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-group label {
+    font-weight: bold;
+    color: #333333;
+    margin-bottom: 0.5rem;
+    display: block;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .form-group input:focus {
+    outline: none;
+    border-color: #4a90e2;
+    box-shadow: 0 0 5px rgba(74, 144, 226, 0.5);
+  }
+  
+  /* Button styles */
+  .btn {
+    display: inline-block;
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-btn {
+    background-color: #4a90e2;
+    color: white;
+  }
+  
+  .submit-btn:hover {
+    background-color: #3a78c9;
+  }
+  
+  .pdf-btn {
+    background-color: #28a745;
+    color: white;
+    display: block;
+    margin: 1.5rem auto;
+    text-align: center;
+  }
+  
+  .pdf-btn:hover {
+    background-color: #218838;
+  }
+  
+  /* Table styling */
+  .table-wrapper {
+    overflow-x: auto;
+    margin-bottom: 1.5rem;
+  }
+  
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #ffffff;
+  }
+  
+  thead tr {
+    background-color: #4a90e2;
+    color: white;
+  }
